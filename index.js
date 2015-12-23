@@ -1,5 +1,5 @@
 "use strict";
-import React from 'react';
+const React = require('react');
 
 /**
  * @class BaiduMap
