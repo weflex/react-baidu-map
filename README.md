@@ -15,7 +15,7 @@ $ npm install --save react-baidu-map
 
 ## Demo
 
-[![demo][./demo.gif]]
+![demo](./demo.gif)
 
 ## Usage
 
