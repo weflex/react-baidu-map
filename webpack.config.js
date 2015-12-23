@@ -4,7 +4,7 @@ module.exports = {
   entry: './index.jsx',
   output: {
     path: './dist',
-    filename: 'bundle.js'
+    filename: 'react-baidu-map.js'
   },
   resolve: {
     extensions: ['', '.jsx', '.js']
