@@ -4,7 +4,7 @@ import React from 'react';
 /**
  * @class BaiduMap
  */
-export class BaiduMap extends React.Component {
+class BaiduMap extends React.Component {
   /**
    * @constructor
    * @id {String} the id to create DOM id
@@ -42,3 +42,16 @@ export class BaiduMap extends React.Component {
     this._local.search(text);
   }
 }
+
+BaiduMap.propTypes = {
+  /**
+   * the id to create DOM id
+   */
+  id: React.PropTypes.string,
+  /**
+   * this function will be fired when user click a marker and the info bubble is shown
+   */
+  onSelect: React.PropTypes.func
+};
+
+export default BaiduMap;
