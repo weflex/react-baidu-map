@@ -2,9 +2,10 @@
   "name": "react-baidu-map",
   "version": "1.2.3",
   "description": "react component to work with baidu javascript API which enables you search, pinch and more",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
-    "build": "./node_modules/.bin/babel ./index.jsx --out-file ./index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack"
   },
   "repository": {
     "type": "git",
@@ -24,9 +25,13 @@
   },
   "homepage": "https://github.com/weflex/react-baidu-map#readme",
   "devDependencies": {
-    "babel": "6.3.26",
-    "babel-cli": "6.3.17",
-    "babel-preset-es2015": "6.3.13",
-    "babel-preset-react": "6.3.13"
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "react": "^0.14.3"
   }
 }
