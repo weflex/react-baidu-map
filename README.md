@@ -13,6 +13,10 @@ react component to work with baidu javascript API which enables you search, pinc
 $ npm install --save react-baidu-map
 ```
 
+## Demo
+
+[![demo][./demo.gif]]
+
 ## Usage
 
 The following is an example to show how it works with a search input to get
