@@ -1,8 +1,8 @@
 {
   "name": "react-baidu-map",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "react component to work with baidu javascript API which enables you search, pinch and more",
-  "main": "dist/bundle.js",
+  "main": "dist/react-baidu-map.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/webpack"
