@@ -1,6 +1,6 @@
 {
   "name": "react-baidu-map",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "react component to work with baidu javascript API which enables you search, pinch and more",
   "main": "index.js",
   "scripts": {
